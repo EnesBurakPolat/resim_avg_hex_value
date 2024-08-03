@@ -1,0 +1,1 @@
+# resim_avg_hex_value
