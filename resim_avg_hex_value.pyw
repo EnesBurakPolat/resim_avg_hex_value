@@ -7,6 +7,8 @@ import numpy as np
 #Gerekenler
 #python -m pip install Pillow
 #python -m pip install numpy
+#python -m PyInstaller --onefile --noconsole resim_avg_hex_value.pyw
+#python -m PyInstaller --onefile --noconsole --distpath "C:\KendiKlasorum" resim_avg_hex_value.pyw
 
 def calculate_average_color(image_path):
     with Image.open(image_path) as img:
